@@ -19,7 +19,7 @@ class Home extends Component{
                    <Tabs onChange={onchange} centered >
                        <Tab label="Home"  href="/" style={{color:'white',marginTop:'10px',fontSize:'20px'}} />
 
-                       <Tab label="Customer"  href="/customer" style={{color:'white',marginTop:'10px',fontSize:'20px'}} />
+                       <Tab label="Customer"  href="/customerForm" style={{color:'white',marginTop:'10px',fontSize:'20px'}} />
 
                        <Tab centered label="Item" href="/item" style={{color:'white',marginTop:'10px',fontSize:'20px'}}/>
                    </Tabs>

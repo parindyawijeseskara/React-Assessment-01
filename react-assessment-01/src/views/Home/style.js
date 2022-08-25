@@ -2,7 +2,7 @@ export const styleSheet ={
     container :{
         height : '100vh',
         width: '98vw',
-        backgroundColor:'white',
+        backgroundColor:'gray',
         overflow:'hidden'
 
     },
@@ -12,7 +12,5 @@ export const styleSheet ={
         height:'10vh',
         backgroundColor:'black'
         
-        
-       
     }
 }
