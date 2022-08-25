@@ -1,10 +1,17 @@
 import React from "react";
+import Home from "../views/Home";
+import {Routes, Route} from "react-router-dom";
+
+
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <Routes>
+      <Route exact path='/' element={<Home/>}/>
+    </Routes>
+    
+      
+    
   );
 }
 
