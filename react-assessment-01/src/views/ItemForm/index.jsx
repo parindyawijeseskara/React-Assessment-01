@@ -5,7 +5,7 @@ import Tabs from '@mui/material/Tabs';
 import {Tab,Grid,Typography,TextField} from '@mui/material';
 
 
-class CustomerForm extends Component{
+class ItemForm extends Component{
     constructor(props){
         super(props);
     }
@@ -27,7 +27,7 @@ class CustomerForm extends Component{
 
                <div className={classes.title__container}>
                     <Typography variant="h4" style={{marginTop:'20px'}}>
-                        Manage Customers
+                        Manage Items
                     </Typography>
                 </div>
 
@@ -35,19 +35,23 @@ class CustomerForm extends Component{
                     <Fragment>
                         <Grid container spacing={0.5}>
                             <Grid item lg={6} md={6} sm={6} xm={6} >
-                            <TextField id="outlined-basic" placeHolder="Customer Name" label="Customer Name" variant="outlined" size="small"
+                            <TextField id="outlined-basic" placeHolder="Item Name" label="Item Name" variant="outlined" size="small"
                             style={{width: '100%'}} />
                             </Grid>
                             <Grid item lg={6} md={6} sm={6} xm={6} >
-                            <TextField id="outlined-basic" placeHolder="Gender" label="Gender" variant="outlined" size="small"
+                            <TextField id="outlined-basic" placeHolder="Code" label="Code" variant="outlined" size="small"
                             style={{width: '100%'}} />
                             </Grid>
                             <Grid item lg={6} md={6} sm={6} xm={6} >
-                            <TextField id="outlined-basic" placeHolder="Nic" label="Nic" variant="outlined" size="small"
+                            <TextField id="outlined-basic" placeHolder="Description" label="Description" variant="outlined" size="small"
                             style={{width: '100%'}} />
                             </Grid>
                             <Grid item lg={6} md={6} sm={6} xm={6} >
-                            <TextField id="outlined-basic" placeHolder="Email" label="Email" variant="outlined" size="small"
+                            <TextField id="outlined-basic" placeHolder="Price" label="Price" variant="outlined" size="small"
+                            style={{width: '100%'}} />
+                            </Grid>
+                            <Grid item lg={6} md={6} sm={6} xm={6} >
+                            <TextField id="outlined-basic" placeHolder="Qty" label="Qty" variant="outlined" size="small"
                             style={{width: '100%'}} />
                             </Grid>
                         </Grid>
@@ -58,4 +62,4 @@ class CustomerForm extends Component{
     }
 }
 
-export default withStyles(styleSheet)(CustomerForm)
+export default withStyles(styleSheet)(ItemForm)

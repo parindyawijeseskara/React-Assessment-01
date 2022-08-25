@@ -21,7 +21,7 @@ class Home extends Component{
 
                        <Tab label="Customer"  href="/customerForm" style={{color:'white',marginTop:'10px',fontSize:'20px'}} />
 
-                       <Tab centered label="Item" href="/item" style={{color:'white',marginTop:'10px',fontSize:'20px'}}/>
+                       <Tab centered label="Item" href="/itemForm" style={{color:'white',marginTop:'10px',fontSize:'20px'}}/>
                    </Tabs>
                </Grid>
             </div>
